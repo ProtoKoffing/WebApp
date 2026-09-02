@@ -1,0 +1,38 @@
+body{
+    background-color: #104994;
+    p, h2, td, th, tr, ol, b, a  {
+        color: #ffffff;
+        font-family: 'Verdana';
+        text-align: center;
+    }
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol{
+    border: 2px solid #ffffff;
+    padding: 1px;
+    display: inline-block;
+    align-items: center;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-center{
+    margin-left: auto;
+    margin-right: auto;
+}
