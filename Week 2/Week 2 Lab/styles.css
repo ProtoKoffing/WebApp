@@ -1,0 +1,32 @@
+body{
+    background-color: #7e7d7d;
+    h1, p, h2, td, th, tr, ol  {
+        color: #ffffff;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        text-align: center;
+    }
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol{
+    border: 2px solid #ffffff;
+    padding: -1px;
+    display: inline-block;
+    align-items: center;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-center{
+    margin-left: auto;
+    margin-right: auto;
+}
