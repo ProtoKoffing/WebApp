@@ -4,15 +4,25 @@
     <link rel="stylesheet" href="styles.css">
     <title>Home</title>
 </head>
+<style>
+    #header {
+        background-color: #948383;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
 <body> 
     <header>
-        <h1> Home </h1>
-        <h1> Jade Bateman </h1>
+        <h1 id="header">Home</h1>
     </header>
     <section>
+    <div class="card">
         <img src="tah2.jpg"  alt ="Picture of one of my best friends Tahmid" width="221" height="480">
+        <div class="container">
+            <h2><b>Tahmid</b></h2> 
+        </div>
         <br>
-        <p>This is Tahmid, he moved in recently, he does the dishes in an apron.</p>
+        <p>This is <span class="highlight">Tahmid</span>, he moved in recently, he does the dishes in an apron.</p>
         <br>
         <br>
         <nav>
@@ -21,7 +31,9 @@
         </nav>
     </section>
     <footer>
+        <div class="footer">
         <p> Trademark of ProtoKoffing LLC 2026</p>
+        </div>
     </footer>
 </body>
 </html>
