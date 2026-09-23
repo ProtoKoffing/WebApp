@@ -1,0 +1,38 @@
+body{
+    background-color: #b8a4a4;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial;
+}
+/*Applies style rules to the navigation bar */
+nav{
+    display: flex;
+    border: 5px solid black;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-center;
+    row-gap: 1em;
+
+}
+/* This creates the boxes and their styles */
+.character{ 
+    width: 200px;
+    height: 200px;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 20px;
+}
+/* Each of these id tags allow for each box to be styled */
+#thor{
+    background-color: #71c0ca;
+}
+
+#doctor_strange{
+    background-color: #912591;
+}
+#black_widow{
+    background-color: #be3a3a;
+}
