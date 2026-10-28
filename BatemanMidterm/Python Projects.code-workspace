@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../Python Projects"
+		},
+		{
+			"name": "WebApp",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WebApp"
+	}
+}
