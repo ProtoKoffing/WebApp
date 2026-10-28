@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spinning Time</title>
+</head>
+<body>
+    <h1>
+        Its time to spin
+    </h1>
+    <p>
+        I like spinning
+    </p> 
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: lightgreen; width:120px;height:20px;padding:40px;"> <!--Pulled from W3Schools, different way to do it but calls the function on mouse over or out-->
+        Wanna Spin?
+    </div> <!-- End of mouse over div , sourcing from W3schools -->
+    <div id="click" style="background-color: lightblue; width:120px;height:20px;padding:40px;"> <!-- makes a button for the click event-->
+        <button>Click Me</button>
+    </div>
+    <div id="dblclick" style="background-color: lightcoral; width:120px;height:20px;padding:40px;"> <!-- another button for dblclick event-->
+        <button>Double Click Me</button>
+    </div>
+    <p>Throw something in the box</p> <!-- Text box for the key press event-->
+    <input type="text" id="testin">
+
+    <script src="scripts.js" defer></script>
+
+        
+</body>
+</html>
