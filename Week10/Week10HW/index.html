@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rivals — DOM Homework</title>
+  <style>
+    /* You choose the class name */
+    .bglight { background: #fff3cd; transition: background 200ms; }
+    .bgdark { background:#111; color:#eee; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="rivalsTitle">Rivals Page</h1>
+  </header>
+
+  <main id="rivalsMain">
+    <p class="intro">Welcome! This page will update with JavaScript.</p>
+
+    <!-- List target you will render into -->
+    <ul id="rivalsList"></ul>
+
+    <!-- Image you will update -->
+    <img id="rivalsImg" src="https://via.placeholder.com/400x200" alt="[placeholder]" />
+
+    <!-- Buttons you will wire up -->
+    <button id="rivalsToggle">Toggle Highlight</button>
+    <button id="rivalsSwap">Swap Image</button>
+  </main>
+  <section id="rivalsSection">
+    <p>This is a section that will be updated with JavaScript.</p>
+  </section>
+  <footer id="rivalsFooter">© 2025 Jade Bateman</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
