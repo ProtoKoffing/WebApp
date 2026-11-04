@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+  padding: 1rem;
+}
+
+/* The 'dark' theme we will toggle later */
+.dark {
+  background: black;
+  color: white;
+}
