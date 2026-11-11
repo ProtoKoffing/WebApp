@@ -3,6 +3,7 @@ let currentCAngle = 0;
 let currentDAngle = 0;
 let currentX = 0;
 
+
 function mOut(obj) { //defines a function for mouseout
     obj.innerHTML = "SPIN ME" //changes the text of the object
     obj.style.transform = `rotate(${currentMAngle}deg)`; //rotates the object

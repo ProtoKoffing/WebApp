@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Setup Recommendation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Gaming Setup Recommendation</h1>
+    <p>Tell us about your gaming preferences!</p>
+
+    <form id="gamingForm">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="budget">Gaming Budget ($):</label>
+        <input type="number" id="budget" required>
+
+        <label for="platform">Preferred Platform:</label>
+        <select id="platform">
+            <option value="PC">PC</option>
+            <option value="PlayStation">PlayStation</option>
+            <option value="Xbox">Xbox</option>
+            <option value="Nintendo Switch">Nintendo Switch</option>
+        </select>
+
+        <label for="games">Favorite Games:</label>
+        <textarea id="games" placeholder="What games do you play?"></textarea>
+
+        <label>
+            <input type="checkbox" id="accessories">
+            I am interested in gaming accessories.
+        </label>
+
+        <button type="submit">Submit Form</button>
+
+    </form>
+
+    <section id="results"></section>
+
+    <!-- Connects the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
