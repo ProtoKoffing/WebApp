@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 13 - Form Validation</title>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+
+        form {
+            display: grid;
+            gap: 0px;
+            max-width: 400px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Contact Form</h1>
+    <!-- Create your form here -->
+    <p>Enter your information below</p>
+    <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <p id="nameError" class="error"></p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <p id="emailError" class="error"> </p>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter your age" min="1" required>
+        <p id="ageError" class="error"></p>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="successMessage" class="success"></p>
+    <script src="script.js"></script>
+</body>
+</html>
